@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<title>Ultimate Love Game për Nuçin ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen">
+    <h1>Kliko për të filluar surprizën 🌹</h1>
+</div>
+
+<!-- MINI LOJËRA DASHURIE -->
+<div id="gameArea" class="hidden">
+    <p>Kapo të gjitha zemrat dhe fluturat për të fituar dashurinë! ❤️🦋🌸</p>
+</div>
+
+<!-- SHKRONJAT I LOVE YOU -->
+<div id="lettersContainer" class="hidden"></div>
+
+<!-- FINALE -->
+<div id="finale" class="hidden">
+    <div class="photo-container">
+        <img src="nuci.JPG" class="photo-big">
+    </div>
+    <div id="question" class="hidden">
+        <h2>Edhe unë të dua pafund ❤️<br>Më fal nëse të kam merzit ndonjëherë.<br>A do të dalim sonte bashkë?</h2>
+        <div class="buttons">
+            <button id="yes1">YES</button>
+            <button id="yes2">YES</button>
+        </div>
+    </div>
+</div>
+
+<canvas id="effects"></canvas>
+
+<audio id="music" loop>
+<source src="https://cdn.pixabay.com/audio/2022/03/15/audio_c8c8a73467.mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
